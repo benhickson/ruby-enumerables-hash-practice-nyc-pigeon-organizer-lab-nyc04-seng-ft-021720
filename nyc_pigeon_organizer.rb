@@ -1,4 +1,4 @@
-# def nyc_pigeon_organizer(data)
+def nyc_pigeon_organizer(data)
 #   # p data
 #   names = {}
   
@@ -20,9 +20,7 @@
 #   names
 # end
 
-def nyc_pigeon_organizer(data)
-
-  names = []
+  names_array = []
   pigeon_hash = {}
 
   data.each do |attribute, items|
