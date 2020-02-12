@@ -17,28 +17,6 @@
 #   #   end
 #   # end
   
-#   name_array = []
-  
-#   data.each do |descriptor, categories|
-#     categories.each do |category, namelist|
-#       namelist.each do |name|
-#         name_array << name if !name_array.include?(name)
-#       end
-#     end
-#   end
-  
-#   name_array.each do |name_in_array|
-#     names[name_in_array] = Hash.new {|k, v| k[v] = []}    #whats this
-#     data.each do |descriptor, categories|
-#       names[name_in_array][descriptor]
-#       categories.each do |categories, namelist|
-#         namelist.each do |name|
-#           names[name][attribute] << feature.to_s if name == name_in_array
-#         end
-#       end
-#     end
-#   end
-  
 #   names
 # end
 
