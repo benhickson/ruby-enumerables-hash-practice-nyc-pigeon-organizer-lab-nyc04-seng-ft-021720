@@ -33,13 +33,13 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  names_array.each do |nombre|
-    output_hash[nombre] = Hash.new {|k, v| k[v] = []}
+  names_array.each do |name_from_namearray|
+    output_hash[name_from_namearray] = Hash.new {|k, v| k[v] = []}
     data.each do |attribute, items|
-      output_hash[nombre][attribute]
+      output_hash[name_from_namearray][attribute]
       items.each do |feature, arr|
         arr.each do |name|
-          output_hash[name][attribute] << feature.to_s if name == nombre
+          output_hash[name][attribute] << feature.to_s if name == name_from_namearray
         end
       end
     end
