@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
     value1.each do |key2, value2|    #loop the values
       value = key2
       value2.each do |name|
-        names[name][attribute.to_sym] << value.to_s
+        # names[name][attribute.to_sym] << value.to_s
+        names[name][attribute.to_sym].push(value.to_s)
       end
     end
   end
