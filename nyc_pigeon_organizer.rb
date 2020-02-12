@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
 
   # names = {}
   
+  # why doesnt this work??
   
   # data.each do |key1, value1|       #loop the attributes
   #   attribute = key1
