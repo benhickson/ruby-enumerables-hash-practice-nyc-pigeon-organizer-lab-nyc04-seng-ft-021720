@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  names
+  # names
 
 
 
@@ -44,5 +44,6 @@ def nyc_pigeon_organizer(data)
   # end
   
   # output_hash
-
+  
+  names
 end
